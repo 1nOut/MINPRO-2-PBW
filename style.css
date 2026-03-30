@@ -1,0 +1,320 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #0f172a;
+    color: #e5e7eb;
+}
+
+section {
+    scroll-margin-top: 90px;
+}
+
+/* ================= NAVBAR ================= */
+.bg-dark-custom {
+    background-color: #111827 !important;
+}
+
+.navbar-nav {
+    align-items: center;
+    position: relative;
+}
+
+.nav-item {
+    margin: 0 15px;
+}
+
+.nav-link {
+    padding: 12px 28px;
+    color: #e5e7eb !important;
+    transition: 0.3s;
+}
+
+.nav-link:hover,
+.nav-link.active {
+    color: #ffffff !important;
+}
+
+.separator {
+    width: 1px;
+    height: 24px;
+    background-color: #374151;
+    margin: 0 10px;
+}
+
+.nav-indicator {
+    position: absolute;
+    bottom: 0;
+    height: 4px;
+    width: 0;
+    background-color: #ffffff;
+    transition: all 0.3s ease;
+    border-radius: 5px;
+}
+
+/* ================= Home  ================= */
+.hero-section {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to bottom, #0f172a, #14213d);
+    padding: 120px 0 180px 0;
+}
+
+.photo-frame {
+    width: 380px;
+    height: 500px;
+    border-radius: 30px;
+    padding: 12px;
+    background: linear-gradient(145deg, #1e3a8a, #1d4ed8);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    box-shadow: 0 0 40px rgba(59,130,246,0.25);
+}
+
+.profile-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 25px;
+}
+
+.hero-desc {
+    max-width: 650px;
+    margin: 10px auto 0;
+    line-height: 1.8;
+}
+
+/* ================= About Me ================= */
+.about-section {
+    padding: 140px 0;
+    background-color: #111827;
+    border-top: 1px solid #1f2937;
+}
+
+.custom-accordion .accordion-item {
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #374151;
+}
+
+.custom-accordion .accordion-button {
+    background: transparent;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 25px 0;
+    box-shadow: none;
+}
+
+.custom-accordion .accordion-button:not(.collapsed) {
+    color: #60a5fa;
+    background: transparent;
+}
+
+.custom-accordion .accordion-button:focus {
+    box-shadow: none;
+}
+
+.custom-accordion .accordion-body {
+    color: #d1d5db;
+    padding: 10px 0 30px 0;
+}
+
+/* ================= Certificates ================= */
+.certificates-section {
+    padding: 140px 0 180px 0;
+    background-color: #1e293b;
+    min-height: 80vh;
+}
+
+.card {
+    background-color: #1f2937;
+    color: #e5e7eb;
+    border: none;
+}
+
+.certificate-card:hover {
+    transform: translateY(-8px);
+    transition: 0.3s;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.5);
+}
+
+/* ================= Ngatur Progress Bar Skill ================= */
+
+.skill-item {
+    margin-bottom: 25px;
+}
+
+.skill-info {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 6px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.custom-progress {
+    height: 18px;
+    background-color: #374151;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.custom-progress .progress-bar {
+    height: 100%;
+    border-radius: 10px;
+    transition: 0.6s ease;
+}
+
+.htmlcssjs-bar {
+    width: 50%;
+    background: linear-gradient(90deg, #f97316, #fb923c);
+}
+
+.designdatabase-bar {
+    width: 80%;
+    background: linear-gradient(90deg, #3b82f6, #60a5fa);
+}
+
+.python-bar {
+    width: 70%;
+    background: linear-gradient(90deg, #10b981, #34d399);
+}
+
+.network-bar {
+    width: 60%;
+    background: linear-gradient(90deg, #f59e0b, #fbbf24);
+}
+
+.valorant-section {
+    margin-top: 35px;
+    padding-top: 20px;
+    border-top: 1px solid #374151;
+}
+
+.valorant-ranks {
+    position: relative;
+    height: 50px;
+    margin-bottom: 8px;
+}
+
+.rank-icon {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    object-fit: contain;
+    transform: translateX(-50%);
+}
+
+.rank-iron {
+    left: 0%;
+    transform: translateX(0%);
+}
+
+.rank-diamond {
+    left: 65%;
+}
+
+.rank-radiant {
+    left: 100%;
+}
+
+.valorant-bar {
+    width: 65%;
+    background: linear-gradient(90deg, #ff4655, #ff6b81);
+}
+
+/* ================= Biar Tulisan di About Me agak gede ================= */
+
+
+#desc .accordion-body p {
+    font-size: 17px;
+    line-height: 1.9;
+    margin-bottom: 18px;
+    color: #e5e7eb;
+}
+
+#exp .accordion-body ul {
+    padding-left: 20px;
+}
+
+#exp .accordion-body li {
+    font-size: 17px;
+    margin-bottom: 12px;
+    line-height: 1.8;
+    color: #e5e7eb;
+}
+
+/* ================= Bagian Certificates ================= */
+
+.certificates-section {
+    padding: 80px 0;
+    background: linear-gradient(135deg, #0f172a, #1e293b);
+    color: white;
+}
+
+
+.section-title {
+    font-size: 32px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.certificate-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+    justify-items: center;
+    max-width: 1100px;
+    margin: auto;
+}
+
+
+.certificate-card {
+    width: 100%;
+    max-width: 480px;
+    background: #ffffff;
+    border-radius: 20px;
+    overflow: hidden;
+    border: 1px solid #e2e8f0;
+    box-shadow: 0 15px 35px rgba(0,0,0,0.2);
+    transition: 0.3s ease;
+}
+
+.certificate-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 20px 40px rgba(0,0,0,0.3);
+}
+
+.certificate-card img {
+    width: 100%;
+    height: 260px;
+    object-fit: cover;
+}
+
+.certificate-card .card-body {
+    padding: 20px;
+}
+
+.certificate-card h5 {
+    color: #1e293b;
+    font-weight: 600;
+}
+
+.certificate-card p {
+    color: #475569;
+    font-size: 14px;
+}
+
+.carousel-item {
+    background: transparent !important;
+}
+
+.carousel {
+    transition: transform 0.8s ease;
+}
